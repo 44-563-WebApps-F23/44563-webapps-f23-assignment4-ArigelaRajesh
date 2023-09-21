@@ -5,16 +5,18 @@
 }
 
 .direction{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: smaller;
-    color: #000;
-    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+    background-color: #ededed;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .direction:hover{
-    color: rgb(210, 17, 17);
-    background-color: lemonchiffon;
-    font-weight: bolder;
+    background-color: #e36363;
+    color: rgb(155, 235, 145);
+    border: 2px solid #180707;
+    display: inline-block;
 }
 
 .Billing{
@@ -22,9 +24,25 @@
     font-weight: bold;
 }
 
+.Billing:hover{
+    font-family: 'Times New Roman', Times, serif;
+   /* background-color: #e8c1c1;*/
+    text-shadow: 5px 5px 5px #ff0000;
+    border: 2px solid #ff0000;
+    display: inline-block;
+}
+
 .MrsStockmann{
     color:firebrick;
     font-weight: bold;
+}
+
+.MrsStockmann:hover{
+    font-family: 'Times New Roman', Times, serif;
+   /* background-color: #e8c1c1;*/
+    text-shadow: 5px 5px 5px #ff0000;
+    border: 2px solid #ff0000;
+    display: inline-block;
 }
 
 .PeterStockmann{
@@ -32,15 +50,34 @@
     font-weight: bold;
 }
 
+.PeterStockmann:hover{
+    font-family: 'Times New Roman', Times, serif;
+   /* background-color: #e8c1c1;*/
+    text-shadow: 5px 5px 5px #ff0000;
+    border: 2px solid #ff0000;
+    display: inline-block;
+}
+
 .Hovstad{
     color:green;
     font-weight: bold;
 }
+.Hovstad:hover{
+    font-family: 'Times New Roman', Times, serif;
+   /* background-color: #e8c1c1;*/
+    text-shadow: 5px 5px 5px #ff0000;
+    border: 2px solid #ff0000;
+    display: inline-block;
+}
 
 .table{
-    width: 100%;
+    margin: 2px;
+    border-spacing: 1.4em 0.8em;
     border-collapse: collapse;
-    margin: 20px;
+    border:2px solid green;
+    text-align: left;
+    padding: 0.5em;
+    width: 100%;
 }
 
 .table th, .table td{
@@ -98,7 +135,7 @@ nav {
 
 ul.horizontal {
     padding: 1px;
-    margin: 1px;
+    margin: 2px;
 }
 
 ul.horizontal li{
