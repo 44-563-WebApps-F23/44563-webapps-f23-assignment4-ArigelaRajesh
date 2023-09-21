@@ -115,9 +115,12 @@
 
 
 .Hovstad:hover{
-    text-shadow: 2px 2px 4px blueviolet;
-    border: 2px solid red;
-    padding: 2px;
+    color:firebrick;
+    font-weight: bold;
+    background-color: lavenderblush;
+    text-shadow: 4px 4px 4px darkgray;
+    filter: blur(1px);
+    border: 1px solid #000;
     
 }
 .PeterStockmann:hover{
