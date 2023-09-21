@@ -22,12 +22,12 @@
     font-weight: bold;
 }
 
-.Mrs. Stockmann{
+.MrsStockmann{
     color:firebrick;
     font-weight: bold;
 }
 
-.Peter Stockmann{
+.PeterStockmann{
     color:green;
     font-weight: bold;
 }
@@ -76,6 +76,13 @@
     border: 1px solid #000;
 }
 
+
+.Hovstad:hover{
+    text-shadow: 2px 2px 4px blueviolet;
+    border: 2px solid red;
+    padding: 2px;
+    
+}
 .PeterStockmann:hover{
     color:firebrick;
     font-weight: bold;
@@ -84,34 +91,28 @@
     filter: blur(1px);
     border: 1px solid #000;
 }
-.navbar {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+nav {
+    display: inline;
+    color: rgb(59, 13, 39);
 }
 
-.navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content:center;
-    align-items: center;
+ul.horizontal {
+    padding: 1px;
+    margin: 1px;
 }
 
-.navbar li {
+ul.horizontal li{
+    float: center;
+    color: azure;
+    background-color: rgb(221, 221, 121);
+}
+
+ul.horizontal a{
+    display: block;
     padding: 10px;
 }
 
-.navbar a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    color: #ffc107;
+ul.horizontal a:hover{
+    color: rgb(27, 59, 202);
+    background-color: rgb(179, 248, 179);
 }
